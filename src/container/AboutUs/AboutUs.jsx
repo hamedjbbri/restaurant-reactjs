@@ -13,7 +13,18 @@ const AboutUs = () => (
             <h1 className='headtext__cormorant'>About us</h1>
             <img src={images.spoon} alt="about_spoon" className='spoon__img' />
             <p className='p__opensans'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis similique, sequi amet adipisci eligendi? Provident, </p>
-            <button type='button' className='custom__button'></button>
+            <button type='button' className='custom__button'>Know more</button>
+        </div>
+
+        <div className='app__aboutus-content_knife flex__center'>
+           <img src={images.knife} alt="about_knife" />
+        </div>
+
+        <div className='app__aboutus-content_history'>
+            <h1 className='headtext__cormorant'>Our hiostory</h1>
+            <img src={images.spoon} alt="about_spoon" className='spoon__img' />
+            <p className='p__opensans'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis similique, sequi amet adipisci eligendi? Provident, </p>
+            <button type='button' className='custom__button'>Know more</button>
         </div>
      </div>
   </div>
